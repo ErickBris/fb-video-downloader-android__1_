@@ -1,0 +1,388 @@
+<em><!DOCTYPE HTML>
+<html>
+<head>
+<title>Documentation by "Viavi WebTech-India"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <h4 id="logo"><a href="#">FB Video Downloader</a></h4>
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="#one" class="active">Table of Contents</a></li>
+       <li><a href="#four">FB Video Downloader</a></li>
+    <li><a href="#three" class="active">Monetization</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul class="icons">      
+      <li><a href="https://www.facebook.com/viaviweb" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="https://twitter.com/viaviwebtech" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://www.linkedin.com/in/viaviwebtech" target="_blank" class="icon fa fa-linkedin"><span class="label">Instagram</span></a></li>
+      <li><a href="https://plus.google.com/+ViaviWebtech" target="_blank" class="icon fa fa-google-plus"><span class="label">Email</span></a></li>
+    </ul>
+  </footer>
+</section>
+<div id="wrapper">
+  <div id="main">
+    <section id="one">
+      <div class="container">
+        <header class="major">
+          <h2>FB Video Downloader</h2>
+          
+        </header>
+        <div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 14 April 2016<br>
+					Company: Viavi Webtech -India<br>
+					Contact: <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#06F' target="_blank">CodeCanyon Profile</a>
+</strong>
+				</p>
+			</div>
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#06F' target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div>
+		<h1 id="toc" > Table of Contents</h1>
+			<li><a href='#eclipseversion' style="color:#06F">Which Eclipse version is needed?</a></li>
+			<li><a href='#importproject' style="color:#06F">How to open the project in Eclipse?</a></li>			
+			<li><a href='#packagename' style="color:#06F">How to change the package name?</a></li>
+			<li><a href='#appname' style="color:#06F">How to change app name?</a></li>			
+			<li><a href='#admob_id' style="color:#06F">How to change AdMob publisher id?</a></li>
+			<li><a href='#startapp_id' style="color:#06F">How to change StartApp Ad Id/Developer Id?</a></li>			
+			<li><a href='#about' style="color:#06F">How to change 'About' section?</a></li>		
+			<li><a href='#splash' style="color:#06F">How to change 'Splash Screen and Application Icon & More App Link' ?</a></li>		
+		 	<li><a href="#graphics" style="color:#06F">Graphics</a></li>			
+			<li><a href="#showcase" style="color:#06F">App Showcase</a></li>
+			<li><a href="#rating" style="color:#06F">Rating</a></li>
+      <li><a href="#credits" style="color:#06F">Credits</a></li>
+
+	<section id="eclipseversion">
+      <div class="container">
+        <br><h2>Which Eclipse version is needed? -> <a style="color:#06F" href="#toc">top</a> </h2><br>
+        		<p>
+			Latest Eclipse version is recommended, which can be downloaded from here:<br />
+			<a style="color:#06F" href='https://eclipse.org/downloads/packages/release/Kepler/SR2' target='_blank'>https://eclipse.org/downloads/packages/release/Kepler/SR2</a>
+		</p>
+          <a href="#eclipseversion"><img src="images/Ecilpse_ver.png"></a>
+          <div class="section_bdr"></div>
+      </div>
+    </section>
+    
+    <section id="importproject">
+      <div class="container">
+        <br><h2>How to open the project in Eclipse? -> <a style="color:#06F" href="#toc">top</a></h2><br>  
+        		<p>
+			<ol>
+				<li>Open Eclipse > Import > Android > "Existing Android Code into Worksplace" > Next </li>
+				<li>Root Directory > Click Browse button & browse the project folder  > Select all 5 projects 'android-saripaar-master','android-support-v7-appcompat','google-play-services_lib', 'SweetAlert' ,FB Video Downloader'</li>
+				<li>After sucessfully importing the app, Right Click FB Video Downloader' project from Package Explorer > Properties > Java Build Path > Order and Export > Check on 'Android Private Libraries' > OK</li>
+				<li>Then go to 'Project' Menu > Clean.. > Clean All Projects > OK</li>
+				<li>Wait for few minutes until all errors are gone. Ignore any warning appears in 'Problems' tab.</li>
+                <li>Change api level 21</li>
+			</ol>
+		</p> 
+          <a href="#importproject"><img src="images/import_1.png"></a><br><br>
+          <a href="#importproject"><img src="images/import_2.png"></a><br>
+
+          <div class="section_bdr"></div>
+        
+      </div>
+    </section>
+    
+    <section id="packagename">
+      <div class="container">
+      	  <br><h2>How to change the package name? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+          		<p>
+			You can change it easily from Eclipse. Here are the steps: 
+			<ol>
+				<li>Right Cilck 'FB Video Downloader' project from Package Explorer > Android Tools > Rename Application Package > Finish.</li>
+				<li>Refactroing dailog present and click Finish</li>
+				<li>Package Name Changed in AndroidMainfest.xml but not in Application Package hierarchy so select Package name Right Click >
+				Go to Refactor > Rename >Enter Package Name > Finish</li>
+			</ol>			
+		</p> 
+              <a href="#packagename"><img src="images/packagename_1.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_2.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_3.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_4.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_5.png"></a>
+
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="appname">
+      <div class="container">
+      	  <br><h2>How to change app name? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+          		<p>
+			<ol>
+				<li>Open Eclipse >FB Video Downloader> res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your app name inside <b>"app_name"</b> string tag:<br /><code>&lt;string name="app_name"&gt;<b>FB Video Downloader</b>&lt;/string&gt;</code></li>
+				<li>if you want change Project name also then >Right Cilck FB Video Downloader' project from Package Explorer >Refactor > Rename >Enter Application Name > Finish</li>
+			</ol>
+			This will change both title inside the app & app icon name.
+		</p>
+              <a href="#appname"><img src="images/appname_1.png"></a><br><br>
+              <a href="#appname"><img src="images/appname_2.png"></a><br><br>
+              <a href="#appname"><img src="images/appname_3.png"></a>
+
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+        
+    
+    <section id="admob_id">
+      <div class="container">
+      	  <br><h2>How to change AdMob publisher id? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>
+			<ol>
+				<li>Open Eclipse > FB Video Downloader > res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your AdMob publisher id inside <b>"admob_publisher_id"</b> string tag:<br /><code>&lt;string name="admob_publisher_id"&gt;<b>Your AdMob ID Here</b>&lt;/string&gt;</code></li>
+				<li>Enter your AdMob interstitial id inside <b>"admob_interstitial_id"</b> string tag:<br /><code>&lt;string name="admob_interstitial_id"&gt;<b>Your interstitial ID Here</b>&lt;/string&gt;</code></li>
+			</ol>
+		</p>          
+              <a href="#admob_id"><img src="images/admobid.png"></a>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="startapp_id">
+      <div class="container">
+      	  <br><h2>How to change StartApp Ad Id/Developer Id? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>
+			<ol>
+				<li>Open Eclipse > FB Video Downloader > res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your StartApp Application id inside <b>"startapp_app_id"</b> string tag:<br /><code>&lt;string name="startapp_app_id"&gt;<b>Your StartApp Application ID</b>&lt;/string&gt;</code></li>
+				<li>Enter your StartApp Developer id inside <b>"startapp_dev_id"</b> string tag:<br /><code>&lt;string name="startapp_dev_id"&gt;<b>Your StartApp Developer ID</b>&lt;/string&gt;</code></li>
+				<li>Open AndroidMainfiest.xml > Change in Startapp Code</li>
+			</ol>
+		</p>
+              <a href="#startapp_id"><img src="images/startapp_1.png"></a><br><br>
+              <a href="#startapp_id"><img src="images/startapp_2.png"></a>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="about">
+      <div class="container">
+      	  <br><h2>How to add About Section into webservice? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>
+ 	
+			<ol>
+				<li>Go to: Eclipse > FB Video Downloader > assets >index.html</li>
+				<li>Right click index.html > Open With > Text Editor</li>
+				<li>It will open into a text editor inside Eclipse, make your necessary changes & save</li>
+				<li> if you want to put live page to about us then its <a href="https://dl.dropboxusercontent.com/s/fhvcnl5pwoucmv8/Web%20About%20Us.txt">Here</a></li>
+			</ol>
+		
+		 
+		</p>
+              <a href="#about"><img src="images/about.png"></a>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="splash">
+      <div class="container">
+      	  <br><h2>How to change 'Splash Screen and Application Icon & More App Link'? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+              	<p>
+		<b>How To Change Application Icon</b>
+		<ol>
+			<li>Open Eclipse > FB Video Downloader > res > drawable-mdpi > app_icon.png</li>
+			<li>Rename your icon with app_icon.png and paste in drawable-mdpi folder</li>
+		</ol>
+      <a href="#splash"><img src="images/appicon.png"></a><br><br>
+		
+		<b>How To Change Splash Screen</b>
+		<ol>
+			<li>Open Eclipse > FB Video Downloader > res > drawable > splash_screen.png</li>
+			<li>Rename your splash screen image  with splash_screen.png and paste in drawable folder</li>
+		</ol>
+    <a href="#splash"><img src="images/appicon_1.png"></a><br><br>
+		
+		<b>How To Change More App Link</b>
+		<ol>
+		<li>Open Eclipse > FB Video Downloader > res >values > strings.xml</li>
+		<li>Enter your Play Store Apps Link inside <b>"play_more_apps"</b> string tag:<br /><code>&lt;string name="play_more_apps"&gt;<b>Your Application Url</b>&lt;/string&gt;</code></li>
+		</ol>
+    <a href="#splash"><img src="images/appicon_2.png"></a><br><br>
+		
+	</p>
+ 
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="graphics">
+      <div class="container">
+      	  <br><h2>Change App all graphics -> <a style="color:#06F" href="#toc">top</a></h2><br>
+              		<p>You will find all image into /res/drawable-mdpi/,/res/drawable-hdpi/,/res/drawable-xhdpi/ folder. Just create your own graphics and replace those files. Create seperate graphics of different device screen sizes & place them into other drawble folders (drawable-hdpi & drawable-xhdpi) with same file name found at drawable-mdpi folder.  Check here for more information: <a style="color:#06F" href='http://developer.android.com/design/style/devices-displays.html' target='_blank'>Devices and Displays</a> & <a style="color:#06F" href='http://developer.android.com/guide/practices/screens_support.html' target='_blank'>Supporting Multiple Screens</a>.</p>
+              <a href="#graphics"><img src="images/Graphics_1.png"></a><br><br>
+              <a href="#graphics"><img src="images/Graphics_2.png"></a>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="showcase">
+      <div class="container">
+      	  <br><h2>Application Showcase in PlayStore -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>Once you will publish your app to Google Play or any other Android store, send us your app link. We will happy to showcase your app into our website & CodeCanyon page.</p>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="rating">
+      <div class="container">
+      	  <br><h2>Rating -> <a style="color:#06F" href="#toc">top</a></h2><br>
+ 		<p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your CodeCanyon Menu > Download page.</p> 
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+        <section id="credits">
+      <div class="container">
+      	  <br><h2>Credits -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>I've used folowing sources into this app:
+		
+		<ul>
+			
+			<li><a style="color:#06F" href='http://actionbarsherlock.com/' target='_blank'>ActionBarSherlock</a></li>
+			<li>Cropper</li>
+			<li>Universal ImageLoader.jar</li>			
+		</ul>
+		
+		<hr>
+		
+		
+		
+		<p>Once again, thank you so much for purchasing this app. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist. If you have a more general question relating to the apps on CodeCanyon, you might consider visiting the "FAQ / Support" section and asking your question in the "Comments" section at CodeCanyon app detail page.</p> 
+		
+		<p class="append-bottom alt large"><strong>Vishal Parmar</strong><br /><strong><a style="color:#06F" href='http://www.viaviweb.in' target='_blank'>Viavi WebTech-India</a></strong></p>
+
+		<p><a style="color:#06F" href="#toc">Go To Table of Contents</a></p>              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    </div>
+
+
+    
+    <section id="four">
+    <div class="container">
+      <h3>Viavi FB Video Downloader Screen Shots</h3>
+        <section>           
+          <p class="pt_bottom">Splash Screen</p>
+          <img src="images/Screenshot_1.png">
+          <hr>
+          
+        <section>
+           <p class="pt_bottom">Tutorial Screen</p>
+          <img src="images/Screenshot_2.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Tutorial_1 Screen</p>
+          <img src="images/Screenshot_3.png">
+          <hr>
+          
+        <section>
+          <p class="pt_bottom">Tutorial_2 Screen</p>
+          <img src="images/Screenshot_4.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Tutorial_3 Screen</p>
+          <img src="images/Screenshot_5.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Tutorial_4 Screen</p>
+          <img src="images/Screenshot_6.png">
+          <hr>
+        </section>
+        
+        <section>
+          <p class="pt_bottom">Login Screen</p>
+          <img src="images/Screenshot_7.png">
+          <hr>
+        </section>
+        
+        <section>
+          <p class="pt_bottom">Video Download Screen</p>
+          <img src="images/Screenshot_8.png">
+          <hr>
+        </section>
+
+       <section>
+          <p class="pt_bottom">Filemanager in app</p>
+          <img src="images/Screenshot_9.png">
+          <hr>
+        </section>
+        
+       </div> 
+    </section>
+  </div>
+        
+<section id="three">
+    <div class="container">
+      <h3>Monetization</h3>
+        <section>
+          <h4>AdMob Ad</h4>
+          <img src="images/admob.png">
+          <hr>
+        </div> 
+        
+     <div class="container">
+        <section>
+          <h4>Startapp Ad</h4>
+          <img src="images/startapp_ad_1.png"><br><br>
+          <h4>Slide Startapp Ad</h4>
+          <img src="images/startapp_ad_2.png"><br><br>
+          <hr>
+        </div> 
+        
+    </section>        
+          
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <ul class="copyright">
+        <li>
+          <h3>Vishal Parmar</h3>
+        </li>
+        <li><a href="http://www.viaviweb.in" target="_blank">Viavi WebTech-India</a></li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+<script src="assets/js/main.js"></script>
+</body>
+</html></em>

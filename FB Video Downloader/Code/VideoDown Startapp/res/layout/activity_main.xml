@@ -1,0 +1,39 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/m_tab_clr"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+          <it.neokree.materialtabs.MaterialTabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/toolbar"
+            app:accentColor="@color/m_tab_select_accent_clr"
+            app:materialTabsPrimaryColor="@color/m_tab_clr" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_below="@+id/tabHost" />
+ 
+
+    </RelativeLayout> 
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:textColor="@color/black"
+    android:drawableLeft="@drawable/ic_file"
+    android:drawablePadding="15dp"
+    android:text="@string/app_name"
+    android:gravity="center_vertical"
+    android:textSize="18sp"
+    
+     >
+    
+
+</TextView>

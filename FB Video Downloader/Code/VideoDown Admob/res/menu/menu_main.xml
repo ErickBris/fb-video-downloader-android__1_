@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title=""
+        app:showAsAction="always"/>
+    
+        <item
+        android:id="@+id/Download"
+        android:icon="@drawable/download"
+        android:title=""
+        app:showAsAction="always"/>
+    
+    
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/over_flow"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+
+            <!-- bookmark -->
+            <item
+                android:id="@+id/share" 
+                android:title="Share App"
+                app:showAsAction="ifRoom|withText"/>
+
+            <!-- bookmark -->
+
+            <item
+                android:id="@+id/more_app" 
+                android:title="More App"
+                app:showAsAction="ifRoom|withText"/>
+        </menu>
+    </item>
+
+</menu>

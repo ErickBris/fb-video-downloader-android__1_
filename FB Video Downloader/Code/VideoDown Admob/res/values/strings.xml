@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">FB Video Downloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="option_addfavo">Bookmark</string>
+    <string name="menu_about">About Us</string>
+    <string name="option_removefavo">Removed Bookmark</string>
+
+    <!-- admob id -->
+    <string name="admob_publisher_id">ca-app-pub-8356404931736973/7108326397</string> <!-- your admob id -->
+    <string name="admob_intertestial_id">ca-app-pub-8356404931736973/8585059598</string> <!-- your admob intertestal ad id -->
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://play.google.com/store/apps/developer?id=Vishal+M+Parmar</string>
+   
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menu_search">Search</string>
+    <string name="download">Download</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="download_done">The file has been saved in the downloads folder, open it by tapping the file in your notifications</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="noconnection">No internet connection was found</string>
+    <string name="down_vid">Download</string>
+    <string name="strm_vid">Watch</string>
+    <string name="fb_video_title">What would you like to do this video?</string>
+
+    <!-- start screen popoup -->
+    <string name="help">Help</string>
+    <string name="Close">Close</string>
+    <string name="watch_tutorial">Watch Tutorial</string>
+    <string name="Message"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis, est in pulvinar varius, nulla metus suscipit enim, eu volutpat sem magna sed lacus. Donec tempor libero eget dui euismod eget luctus libero tempor. Quisque felis mauris, malesuada accumsan vulputate quis, sodales et nibh. Mauris tellus neque, interdum quis blandit sagittis, tincidunt at urna. Cras luctus feugiat metus, in sollicitudin felis laoreet sed. Mauris posuere mattis felis. Morbi enim odio, accumsan ac tincidunt pharetra, mattis sit amet turpis. Vivamus lobortis aliquet ante nec aliquet. Suspendisse potenti. Praesent rutrum condimentum ante et congue. In faucibus posuere arcu, ut congue sem dictum ac. Cras ante libero, pellentesque et fermentum ut, congue nec mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed euismod malesuada sapien ut eleifend. </string>
+
+</resources>

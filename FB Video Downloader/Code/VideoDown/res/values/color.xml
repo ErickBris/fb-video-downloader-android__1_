@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="m_tab_clr">#0098dc</color>
+    <color name="m_tab_select_accent_clr">#59bce8</color>
+    <color name="m_color_primary_dark">#4299AA</color>
+    <color name="background_clr">#E7E7E7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="circle">#94d2ef</color>
+    <color name="theme">#0098dc</color>
+</resources>
